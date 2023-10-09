@@ -85,7 +85,7 @@ const fieldsList = ref([
 </script>
 
 <template>
-	<div dir="rtl" class="grid grid-cols-[1fr_minmax(50%,3fr)_1fr] gap-2 px-2">
+	<div class="grid grid-cols-[1fr_minmax(50%,3fr)_1fr] gap-6 px-2">
 		<div></div>
 		<div>
 			<div class="relative">
@@ -150,7 +150,7 @@ const fieldsList = ref([
 				</span>
 				<span>اضف طلب جديد</span>
 			</button>
-			<div class="p-4 space-y-6 border rounded-xl border-secondary-200">
+			<div class="panel">
 				<div class="space-y-3">
 					<div
 						class="flex items-center gap-2 font-bold text-secondary-400"

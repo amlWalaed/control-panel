@@ -14,4 +14,9 @@ export const appPlugin = plugin(function ({ addComponents, addUtilities }) {
 			/* Firefox */
 		},
 	});
+	addComponents({
+		".panel": {
+			"@apply p-6 space-y-6 border rounded-xl border-secondary-200": {},
+		},
+	});
 });
