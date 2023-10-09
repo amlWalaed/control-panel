@@ -9,7 +9,17 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppButton: typeof import('./src/components/common/AppButton.vue')['default']
     Checkbox: typeof import('./src/components/common/Checkbox.vue')['default']
+    Collapse: typeof import('./src/components/common/Collapse.vue')['default']
+    Disclosure: typeof import('@headlessui/vue')['Disclosure']
+    DisclosureButton: typeof import('@headlessui/vue')['DisclosureButton']
+    DisclosurePanel: typeof import('@headlessui/vue')['DisclosurePanel']
+    Listbox: typeof import('@headlessui/vue')['Listbox']
+    ListboxButton: typeof import('@headlessui/vue')['ListboxButton']
+    ListboxOption: typeof import('@headlessui/vue')['ListboxOption']
+    ListboxOptions: typeof import('@headlessui/vue')['ListboxOptions']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Selectbox: typeof import('./src/components/common/Selectbox.vue')['default']
+    SelectBox: typeof import('./src/components/common/SelectBox.vue')['default']
   }
 }
